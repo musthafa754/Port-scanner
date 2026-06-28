@@ -1,2 +1,24 @@
-# -port-scanner
-Scans a target IP address for open ports and identifies what services are running
+# 🔍 Network Port Scanner
+
+A Python-based network port scanner that detects open ports and running services on a target machine.
+
+## Features
+- Scans ports 1-1024
+- Detects common services (HTTP, SSH, FTP, etc.)
+- Color coded output (Green = Open, Red = Closed)
+- Fast multithreaded scanning
+
+## How to Run
+1. Install Python 3
+2. Install colorama: pip install colorama
+3. Run: python port_scanner.py
+4. Enter an IP address to scan
+
+## Technologies Used
+- Python 3
+- Socket programming
+- Threading
+- Colorama
+
+## Author
+Your Name Here
